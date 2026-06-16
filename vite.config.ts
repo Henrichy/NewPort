@@ -12,5 +12,7 @@ export default defineConfig({
     allowedHosts: [
       'henrichy-2gdu.onrender.com',
     ],
+    host: '0.0.0.0',
+    port: Number(process.env.PORT) || 5173,
   },
 })
